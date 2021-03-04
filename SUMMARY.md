@@ -61,7 +61,7 @@
 ## Internal Documentation
 
 * [🥇 Get started](internal-documentation/get_started.md)
-* [📦 Backend services](internal-documentation/backend-services/README.md)
+* [📦 Backend](internal-documentation/backend-services/README.md)
   * [🥇 Get started with backend development](internal-documentation/backend-services/get-started-with-backend-development/README.md)
     * [Start working into a service](internal-documentation/backend-services/get-started-with-backend-development/start-working-into-a-service.md)
     * [Create a new Twake service](internal-documentation/backend-services/get-started-with-backend-development/create-a-new-twake-service.md)
@@ -71,7 +71,7 @@
   * [💬 Messages service](internal-documentation/backend-services/messages-service.md)
   * [👥 Users and workspaces service](internal-documentation/backend-services/users-and-workspaces-service.md)
   * [🏭 Platform](internal-documentation/backend-services/platform.md)
-* [📦 Frontend components](internal-documentation/frontend-components/README.md)
+* [📦 Frontend](internal-documentation/frontend-components/README.md)
   * [Table](internal-documentation/frontend-components/table.md)
   * [ObjectModal](internal-documentation/frontend-components/objectmodal/README.md)
     * [ObjectModalTitle](internal-documentation/frontend-components/objectmodal/objectmodaltitle.md)
