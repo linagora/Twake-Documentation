@@ -61,11 +61,9 @@
 ## Internal Documentation
 
 * [🥇 Get started](internal-documentation/get_started.md)
-* [📦 Backend](internal-documentation/backend-services/README.md)
-  * [🥇 Get started with backend development](internal-documentation/backend-services/get-started-with-backend-development/README.md)
-    * [Start working into a service](internal-documentation/backend-services/get-started-with-backend-development/start-working-into-a-service.md)
-    * [Create a new Twake service](internal-documentation/backend-services/get-started-with-backend-development/create-a-new-twake-service.md)
-    * [Create a new core service](internal-documentation/backend-services/get-started-with-backend-development/create-a-new-core-service.md)
+* [Backend and APIs](internal-documentation/backend-services/README.md)
+  * [What is a service in Twake ?](internal-documentation/backend-services/start-working-into-a-service.md)
+  * [Create a new service](internal-documentation/backend-services/create-a-new-twake-service.md)
   * [🎩 Channels service](internal-documentation/backend-services/channels-service.md)
   * [📲 Notifications service](internal-documentation/backend-services/notifications-service.md)
   * [💬 Messages service](internal-documentation/backend-services/messages-service.md)

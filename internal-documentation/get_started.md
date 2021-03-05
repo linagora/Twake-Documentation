@@ -44,6 +44,7 @@ docker-compose up -d php nginx
 docker-compose exec php php composer.phar install #Could take some time
 docker-compose exec nginx yarn install
 docker-compose exec nginx yarn build
+cd twake/backend/node; npm install; cd ../../../
 ```
 
 #### Step 5 - Run your local server
