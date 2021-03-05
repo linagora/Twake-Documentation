@@ -1,2 +1,2 @@
-# 🎩 Channels service
+# 🎩 Channels and tabs
 

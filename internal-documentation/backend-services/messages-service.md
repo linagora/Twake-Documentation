@@ -1,2 +1,2 @@
-# 💬 Messages service
+# 💬 Messages
 

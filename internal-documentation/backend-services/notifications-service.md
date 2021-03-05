@@ -1,2 +1,2 @@
-# 📲 Notifications service
+# 📲 Notifications
 

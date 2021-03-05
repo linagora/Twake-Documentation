@@ -1,2 +1,2 @@
-# 👥 Users and workspaces service
+# 👥 Users and workspaces
 

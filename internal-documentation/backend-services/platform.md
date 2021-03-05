@@ -4,7 +4,7 @@ description: >-
   src/core/platform/services
 ---
 
-# 🏭 Platform
+# Platform/Technical services
 
 ## **Database Technical Service**
 
