@@ -23,11 +23,11 @@ Want to edit Twake code ? Congratulation ! You participate in the development of
 
 As a frontend developer to read our APIs, or to understand our data models or just for fun, here is all the details over Twake backend services.
 
-{% page-ref page="channels-service.md" %}
+{% page-ref page="channels-service/" %}
 
-{% page-ref page="notifications-service.md" %}
+{% page-ref page="notifications-service/" %}
 
-{% page-ref page="messages-service.md" %}
+{% page-ref page="messages-service/" %}
 
 {% page-ref page="users-and-workspaces-service.md" %}
 
