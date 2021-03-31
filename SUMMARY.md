@@ -61,6 +61,7 @@
 ## Internal Documentation
 
 * [🥇 Get started](internal-documentation/get_started.md)
+* [Twake Ecosystem Guidelines](internal-documentation/twake-ecosystem-guidelines.md)
 * [Our stack](internal-documentation/our-stack.md)
 * [Backend and APIs](internal-documentation/backend-services/README.md)
   * [What is a service in Twake ?](internal-documentation/backend-services/start-working-into-a-service.md)
