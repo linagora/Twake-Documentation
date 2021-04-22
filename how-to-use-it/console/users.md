@@ -33,3 +33,5 @@ You can create directly accounts for your colleagues. For that, click on  `Add u
 
 ![](../../.gitbook/assets/createuser.gif)
 
+## Manage user
+
