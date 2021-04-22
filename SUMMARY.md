@@ -22,6 +22,8 @@
 ## How to use it
 
 * [👋 Welcome to Twake !](how-to-use-it/welcome.md)
+* [Console](how-to-use-it/console/README.md)
+  * [Users](how-to-use-it/console/users.md)
 * [🏢 Company & workspace](how-to-use-it/company-and-workspace/README.md)
   * [☝️ Rights](how-to-use-it/company-and-workspace/rights.md)
 * [💠 Applications](how-to-use-it/applications/README.md)
