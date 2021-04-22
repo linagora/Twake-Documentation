@@ -6,3 +6,11 @@ Open the menu, and click on `Collaborators`  &gt; `Add colleagues`. Enter emails
 
 ![](../../.gitbook/assets/invitefromtwake.gif)
 
+
+
+You can also invite users from the console :
+
+{% page-ref page="../console/users.md" %}
+
+
+
