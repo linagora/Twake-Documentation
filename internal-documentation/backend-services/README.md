@@ -15,11 +15,7 @@ As a frontend developer / connector developer to read our APIs, or to understand
 
 ### General
 
-{% page-ref page="authentication-service/" %}
-
 ### Services
-
-{% page-ref page="applications-service/" %}
 
 {% page-ref page="users-and-workspaces-service.md" %}
 
@@ -27,17 +23,15 @@ As a frontend developer / connector developer to read our APIs, or to understand
 
 {% page-ref page="messages-service/" %}
 
-{% page-ref page="files-service/" %}
-
 {% page-ref page="notifications-service/" %}
 
 ## Get started to code in Twake
 
 Want to edit Twake code ? Congratulation ! You participate in the development of a great product 😃
 
-{% page-ref page="start-working-into-a-service.md" %}
+{% page-ref page="twake-service-development/start-working-into-a-service.md" %}
 
-{% page-ref page="create-a-new-twake-service.md" %}
+{% page-ref page="twake-service-development/create-a-new-twake-service.md" %}
 
-{% page-ref page="platform.md" %}
+{% page-ref page="twake-service-development/platform.md" %}
 

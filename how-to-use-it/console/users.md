@@ -6,7 +6,7 @@ Open the console : [https://console.twake.app/](https://console.twake.app/) and 
 
 
 
-![User management page](../../.gitbook/assets/image%20%281%29.png)
+![User management page](../../.gitbook/assets/image%20%282%29.png)
 
 ## Add a user
 
