@@ -15,15 +15,21 @@ As a frontend developer / connector developer to read our APIs, or to understand
 
 ### General
 
+{% page-ref page="authentication.md" %}
+
 ### Services
 
 {% page-ref page="users-and-workspaces-service.md" %}
+
+{% page-ref page="applications.md" %}
 
 {% page-ref page="channels-service/" %}
 
 {% page-ref page="messages-service/" %}
 
 {% page-ref page="notifications-service/" %}
+
+{% page-ref page="files.md" %}
 
 ## Get started to code in Twake
 
