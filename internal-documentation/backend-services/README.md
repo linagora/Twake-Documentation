@@ -27,9 +27,9 @@ As a frontend developer / connector developer to read our APIs, or to understand
 
 {% page-ref page="messages-service/" %}
 
-{% page-ref page="notifications-service/" %}
-
 {% page-ref page="files.md" %}
+
+{% page-ref page="notifications-service/" %}
 
 ## Get started to code in Twake
 
