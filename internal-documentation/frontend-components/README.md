@@ -2,5 +2,5 @@
 description: Get started with Twake frontend.
 ---
 
-# Web, desktop and mobile
+# 🖥 Web, desktop and mobile
 

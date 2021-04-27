@@ -5,9 +5,7 @@ description: >-
   https://community.twake.app/
 ---
 
-# Backend and APIs
-
-Twake follows the micro-services spirit, the idea is to limit interaction between systems, for instance avoid accessing channels information from the file storage system. It will ensure a better and maintainable code.
+# 🧱 Backend and APIs
 
 ## Twake Services
 

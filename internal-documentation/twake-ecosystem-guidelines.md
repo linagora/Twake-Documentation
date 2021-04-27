@@ -4,7 +4,7 @@ description: >-
   guidelines are discussed here.
 ---
 
-# Twake Ecosystem Guidelines
+# 🎨 Twake Ecosystem Guidelines
 
 ## Frontend guidelines
 
