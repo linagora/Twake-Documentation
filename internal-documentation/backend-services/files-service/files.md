@@ -18,4 +18,6 @@ Twake Files upload support chunk upload and file encryption.
 
 [Rest APIs](rest-apis.md)
 
+### Miscellaneous
+
 [Resumable.js](resumableJS.md)
