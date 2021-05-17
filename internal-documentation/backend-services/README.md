@@ -27,8 +27,6 @@ If document are empty, check out our Notion documentation: [https://www.notion.s
 
 {% page-ref page="messages-service/" %}
 
-{% page-ref page="files-service/" %}
-
 {% page-ref page="notifications-service/" %}
 
 ## Get started to code in Twake

@@ -1,2 +1,2 @@
-# Database model
+# Database models
 
