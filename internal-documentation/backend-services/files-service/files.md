@@ -12,6 +12,16 @@ Twake Files upload support chunk upload and file encryption.
 
 **Chunk:** Large file are split in multiple chunk for the upload process
 
+### Encryption
+
+Files and Storage services in Twake feature encryption at rest in **aes-256-cbc**.
+
+Each file is encrypted with two layers:
+
+- A file encryption key and iv stored in database and different for each file.
+
+- A global encryption key and iv used in addition to the previous one and equal for each file.
+
 ### Models and APIs
 
 [Database models](database-models.md)
