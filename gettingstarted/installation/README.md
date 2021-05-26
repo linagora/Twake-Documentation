@@ -2,7 +2,7 @@
 
 ## Use Twake in SaaS
 
-You can test or use Twake in our SaaS : [web.twake.app](https://web.twake.app)
+You can test or use Twake in our SaaS : [chat.twake.app](https://chat.twake.app)
 
 ## Run Twake in your server
 
@@ -40,7 +40,24 @@ You can install Twake on your server with this command
 ```text
 git clone https://github.com/TwakeApp/Twake.git
 cd Twake/twake
-cp docker-compose.yml.dist docker-compose.yml
+./start.sh
+```
+
+Or manually:
+
+```
+git clone https://github.com/TwakeApp/Twake.git
+cd Twake/twake
+cp -n docker-compose.yml.dist.onpremise docker-compose.yml
+cp -nR default-configuration/ configuration/
+
+docker-compose pull
+
+docker-compose up -d scylladb
+sleep 5m #Wait scylladb to startup
+docker-compose up -d php rabbitmq
+sleep 10m #Wait php to create tables in scylladb
+
 docker-compose up -d
 ```
 
@@ -52,7 +69,7 @@ Twake will be running on port 8000 🎉
 
 ### Ship Twake in production
 
-See how to [detach configuration](../configuration/). And then how to [update security keys](../configuration/security.md), and finally how to use your [custom domain](../configuration/custom-domain-and-https/).
+See how to [manage configuration](../configuration/). And then how to [update security keys](../configuration/security.md), and finally how to use your [custom domain](../configuration/custom-domain-and-https/).
 
 ### Update Twake
 
