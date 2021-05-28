@@ -19,8 +19,6 @@ sudo apt-get update
 sudo apt-get -y install docker-ce --allow-unauthenticated
 ```
 
-### 
-
 ### Install docker-compose
 
 Twake use docker-compose. If it is not installed in your server :
@@ -30,8 +28,6 @@ sudo curl -L https://github.com/docker/compose/releases/download/1.22.0/docker-c
 sudo chmod +x /usr/local/bin/docker-compose
 docker-compose --version
 ```
-
-
 
 ### Install and run Twake
 
@@ -45,7 +41,7 @@ cd Twake/twake
 
 Or manually:
 
-```
+```text
 git clone https://github.com/TwakeApp/Twake.git
 cd Twake/twake
 cp -n docker-compose.yml.dist.onpremise docker-compose.yml
@@ -98,6 +94,4 @@ If you deploy Twake in your own company we would love to have your feedback here
 Now if you want to scale with Twake and support thousand of users, click on the link below :
 
 {% page-ref page="scale-with-twake.md" %}
-
-
 

@@ -4,6 +4,7 @@
 
 ## Getting started <a id="gettingstarted"></a>
 
+* [⬇️ Download](gettingstarted/download.md)
 * [🏗️ Installation](gettingstarted/installation/README.md)
   * [🎡 Scale with Twake](gettingstarted/installation/scale-with-twake.md)
 * [⚙️ Configuration](gettingstarted/configuration/README.md)
