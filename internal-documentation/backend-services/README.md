@@ -21,7 +21,7 @@ If document are empty, check out our Notion documentation: [https://www.notion.s
 
 {% page-ref page="users-and-workspaces-service.md" %}
 
-{% page-ref page="applications.md" %}
+{% page-ref page="applications/" %}
 
 {% page-ref page="channels-service/" %}
 
