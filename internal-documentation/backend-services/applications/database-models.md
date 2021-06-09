@@ -1,6 +1,6 @@
 # Database models
 
-**APPLICATIONS**  
+**applications**  
 Represent an application in the database
 
 ```javascript
@@ -111,7 +111,7 @@ type ApplicationDisplay = {
 
 
 
-**COMPANY\_APPLICATIONS**  
+**company\_application**  
 Represent an application in a company
 
 ```javascript

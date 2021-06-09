@@ -1,6 +1,6 @@
 # Database models
 
-* **FILES** The main file object in database
+* **files** The main file object in database
 
   ```javascript
     {
