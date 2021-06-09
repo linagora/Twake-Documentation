@@ -49,7 +49,63 @@ type ApplicationAccess = {
 };
 
 type ApplicationDisplay = {
-  twake: {};
+  twake: {
+    "version": 1,
+
+		"files" : {
+	    "preview": {
+				"url": "", //Url to preview file (full screen or inline)
+				"inline": true,
+				"main_ext": ["docx", "xlsx"], //Main extensions app can read
+				"other_ext": ["txt", "html"] //Secondary extensions app can read
+			},
+			"actions": [ //List of action that can apply on a file
+				{
+					"name": "string",
+					"id": "string"
+				}
+			]
+	  },
+
+		//Chat plugin
+	  "chat": {
+	    "input": {
+				"icon": "", //If defined replace original icon url of your app 
+	      "type": "file" | "call" //To add in existing apps folder / default icon
+	    },
+	    "commands": [
+				{
+					"command": "mycommand", // my_app mycommand
+	        "description": "fdsqfds"
+				}
+			],
+			"actions": [ //List of action that can apply on a message
+				{
+					"name": "string",
+					"id": "string"
+				}
+			]
+	  },
+
+		//Allow app to appear as a bot user in direct chat
+    "direct": {
+			"name": "My app Bot",
+      "icon": "", //If defined replace original icon url of your app
+    },
+
+		//Display app as a standalone application in a tab
+	  "tab": {
+	    "url": ""
+	  },
+
+		//Display app as a standalone application on the left bar
+	  "standalone": {
+	    "url": ""
+	  },
+
+    //Define where the app can be configured from
+	  "configuration": ["global", "channel"]
+  };
 };
 ```
 
