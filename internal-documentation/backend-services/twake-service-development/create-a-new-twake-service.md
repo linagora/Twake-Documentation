@@ -169,5 +169,5 @@ Now you are bringing things a step further, you are going to add new core servic
 
 Creating a new core service is as easy as creating a functional service. But it must be in `src/core/platform/services` .
 
-You can read the [complete list of existing technical services here](platform.md) .
+You can read the [complete list of existing technical services here](platform/) .
 

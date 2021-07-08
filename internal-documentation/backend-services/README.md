@@ -37,5 +37,5 @@ Want to edit Twake code ? Congratulation ! You participate in the development of
 
 {% page-ref page="twake-service-development/create-a-new-twake-service.md" %}
 
-{% page-ref page="twake-service-development/platform.md" %}
+{% page-ref page="twake-service-development/platform/" %}
 

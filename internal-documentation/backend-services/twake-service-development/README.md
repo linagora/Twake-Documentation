@@ -8,7 +8,7 @@ description: Get started with Twake service development
 
 {% page-ref page="create-a-new-twake-service.md" %}
 
-{% page-ref page="platform.md" %}
+{% page-ref page="platform/" %}
 
 
 
