@@ -38,7 +38,6 @@
   * [🔃 Connectors](how-to-use-it/applications/connectors/README.md)
     * [n8n](how-to-use-it/applications/connectors/n8n.md)
 * [🖥 Desktop and mobile app](how-to-use-it/desktop-and-mobile-app.md)
-* [🎭 Translation](how-to-use-it/translation.md)
 
 ## Developers API
 
@@ -60,6 +59,7 @@
     * [DELETE Request](developers-api/api-reference/message/delete-request.md)
     * [POST Request](developers-api/api-reference/message/post-request.md)
   * [Authentication](developers-api/api-reference/auth.md)
+* [🎭 Translation](developers-api/translation.md)
 
 ## Internal Documentation
 
