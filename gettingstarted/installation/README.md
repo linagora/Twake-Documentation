@@ -63,7 +63,11 @@ docker-compose up -d
 
 Twake will be running on port 8000 🎉
 
-### Ship Twake in production
+### What's next ?
+
+If you kept the default configuration, you can simply follow the signup steps, no email verification is required by default so you will get into Twake right after the signup steps.
+
+## Ship Twake in production
 
 See how to [manage configuration](../configuration/). And then how to [update security keys](../configuration/security.md), and finally how to use your [custom domain](../configuration/custom-domain-and-https/).
 
