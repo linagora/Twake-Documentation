@@ -1,3 +1,7 @@
+---
+description: How to manage messages through API
+---
+
 # Message
 
 _While users have the ability to create message complexes using the built-in formatting system, applications can go even further and offer many types of messages such as system messages for notifications or interactive messages for your most popular applications._

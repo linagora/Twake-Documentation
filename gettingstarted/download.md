@@ -1,3 +1,7 @@
+---
+description: How to download Twake
+---
+
 # ⬇️ Download
 
 ## Desktop
@@ -6,7 +10,7 @@ You can download Twake for Mac, Windows, Linux here: [https://github.com/linagor
 
 Click on the version according your OS, and click on "download" to get the desktop application.
 
-![](../.gitbook/assets/image%20%283%29.png)
+![](../.gitbook/assets/image%20%283%29%20%281%29.png)
 
 
 

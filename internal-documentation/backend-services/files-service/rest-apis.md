@@ -1,3 +1,7 @@
+---
+description: Rest api for files
+---
+
 # REST APIs
 
 **Prefix**: /internal/services/files/v1/

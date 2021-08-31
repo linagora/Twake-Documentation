@@ -1,3 +1,7 @@
+---
+description: How applications are managed in Twake backend
+---
+
 # 🍎 Applications
 
 #### Description

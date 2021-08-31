@@ -1,3 +1,7 @@
+---
+description: Discover how channels are used on Twake
+---
+
 # Channels
 
 ## Create a channel

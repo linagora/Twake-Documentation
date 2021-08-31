@@ -1,3 +1,7 @@
+---
+description: How we use resumable on Twake
+---
+
 # Resumable.js
 
 **Link to the official documentation:** [http://resumablejs.com](http://resumablejs.com/)

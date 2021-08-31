@@ -1,3 +1,7 @@
+---
+description: How users are managed in the Twake console
+---
+
 # Users
 
 As user admin, you have access to the user management page.

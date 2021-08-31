@@ -1,3 +1,7 @@
+---
+description: Database models of channel
+---
+
 # Database models
 
 ## Channels

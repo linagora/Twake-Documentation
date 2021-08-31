@@ -1,3 +1,7 @@
+---
+description: How you can share your files with a public link
+---
+
 # Share file with public link
 
 In Twake, you can share your folders or files to external user. You juste have to create a public link on what you want to share and send the link. Your partner will access to these elements without creating a Twake account.

@@ -1,3 +1,7 @@
+---
+description: Notification database model
+---
+
 # Database models
 
 #### **channel\_members\_notification\_preferences**

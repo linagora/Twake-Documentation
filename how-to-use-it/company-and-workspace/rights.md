@@ -1,3 +1,7 @@
+---
+description: How rights are managed on Twake
+---
+
 # Rights
 
 Twake has several levels of rights. Users belong to one or more workspaces within the company. They can have different statuses inherent to their membership to the company or workspace

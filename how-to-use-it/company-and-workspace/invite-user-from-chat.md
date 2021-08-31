@@ -1,3 +1,7 @@
+---
+description: Invite user from Twake
+---
+
 # Invite user from Chat
 
 You can invite user in your workspace.

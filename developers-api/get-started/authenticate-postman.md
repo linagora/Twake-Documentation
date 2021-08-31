@@ -1,3 +1,7 @@
+---
+description: Postman example
+---
+
 # Authenticate with Postman
 
 ## Introduction:

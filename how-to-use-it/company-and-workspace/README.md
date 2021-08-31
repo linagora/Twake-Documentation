@@ -1,3 +1,7 @@
+---
+description: How company and workspace work on Twake
+---
+
 # 🏢 Company & workspace
 
 ## Company
