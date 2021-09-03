@@ -45,9 +45,7 @@ description: Rest api for files
 
 To upload a single file, you must call this route and put the file binary data into a "file" multipart section.
 
-* **POST /companies/:company\_id/files** Upload a file. → This route is call to upload a file when chunk upload is not necessary
-
-  \`\`\`javascript Response: { "resource": { "company\_id": "", "id": "uuidA" } }
+* **POST /companies/:company\_id/files?thumbnail\_sync=1** Upload a file. → This route is called to upload a file when chunk upload is not necessary thumbnail\_sync: when set then backend will wait up to 10 seconds for the preview to be generated before to reply.
 
 ## Upload with chunk
 
@@ -57,9 +55,10 @@ The file initialisation and following upload calls takes this parameters as **a 
 
 * **filename**: string, file name
 * **type**: string, mime type for the file
-* **totalChunks**: number, total number of chunk to be uploaded
-* **totalSize**: number, sum of every chunk size \(total file size\)
-* **chunkNumber**: number, current chunk uploaded, set it to undefined during file creation process.
+* **total\_chunks**: number, total number of chunk to be uploaded
+* **total\_Size**: number, sum of every chunk size \(total file size\)
+* **chunk\_number**: number, current chunk uploaded, set it to undefined during file creation process.
+* **thumbnail\_sync:** when set then backend will wait up to 10 seconds for the preview to be generated before to reply.
 * **POST /companies/:company\_id/files/?filename...** Upload a file. → This route should first be called without data to initialise the entity for multi-chunk, then chunks must be sent on other route below.
 
   ```javascript
