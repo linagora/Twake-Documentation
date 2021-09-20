@@ -38,6 +38,7 @@
   * [🔃 Connectors](how-to-use-it/applications/connectors/README.md)
     * [n8n](how-to-use-it/applications/connectors/n8n.md)
 * [🖥 Desktop and mobile app](how-to-use-it/desktop-and-mobile-app.md)
+* [🔒 Privacy](how-to-use-it/privacy.md)
 
 ## Developers API
 
