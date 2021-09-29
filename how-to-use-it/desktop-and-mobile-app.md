@@ -4,13 +4,13 @@ description: 'Yes, we have desktop and mobile apps !'
 
 # 🖥 Desktop and mobile app
 
-### Desktop App
+## Desktop
 
-You can download the desktop app for Windows, MacOS and Linux here: [https://twake.app/fr/download](https://twake.app/fr/download)
+You can download Twake for Mac, Windows, Linux here: [https://github.com/linagora/Twake-Desktop/tree/master/download](https://github.com/linagora/Twake-Desktop/tree/master/download)
 
-### Mobile App
+Click on the version according your OS, and click on "download" to get the desktop application.
 
-The mobile app is available on iOS App Store and Android Play Store.
+![](../.gitbook/assets/image%20%283%29%20%281%29.png)
 
 ### Switch to on-premise servers
 
@@ -18,6 +18,14 @@ On the desktop app, you can use the following options to change your server:
 
 • On MacOS, click on Help &gt; Change Twake Server  
 • On Windows, MacOS and Linux, use the shortcut CTRL+ALT+SHIFT+S or CMD+ALT+SHIFT+S
+
+
+
+## Mobile App
+
+The mobile app is available on iOS App Store and Android Play Store.
+
+### Switch to on-premise servers
 
 On the mobile app, just log out and you should be able to change the server from the bottom left login page link "Change Server".
 
