@@ -4,6 +4,10 @@ description: Ready to contribute ? Here you go :)
 
 # 🖥 Run Twake as Developer
 
+## Before to start
+
+* Fork our repo [https://github.com/TwakeApp/Twake](https://github.com/TwakeApp/Twake) and checkout the **develop** branch
+
 ## Run the backend (+ database)
 
 1. Go to "twake/"
@@ -12,10 +16,9 @@ description: Ready to contribute ? Here you go :)
 
 ## Run the frontend
 
-1. Fork our repo [https://github.com/TwakeApp/Twake](https://github.com/TwakeApp/Twake) and checkout the **develop** branch
-2. Go to "twake/frontend"
-3. Run `yarn install` (better to use **yarn** than **npm**), our developers uses node 14 and 16, it should work with any upper version.
-4. Prepare the **environment.ts** file like this: `cp environment/environment.ts.dist.dev environment/environment.ts`
+1. Go to "twake/frontend"
+2. Run `yarn install` (better to use **yarn** than **npm**), our developers uses node 14 and 16, it should work with any upper version.
+3. Prepare the **environment.ts** file like this: `cp environment/environment.ts.dist.dev environment/environment.ts`
 
 ```
 export default {
