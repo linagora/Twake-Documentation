@@ -8,6 +8,10 @@ description: Ready to contribute ? Here you go :)
 
 * Fork our repo [https://github.com/TwakeApp/Twake](https://github.com/TwakeApp/Twake) and checkout the **develop** branch
 
+{% hint style="info" %}
+You want to fix a translation issue? We use Weblate: [https://hosted.weblate.org/projects/linagora/twake-chat-web/](https://hosted.weblate.org/projects/linagora/twake-chat-web/)
+{% endhint %}
+
 ## Run the backend (+ database)
 
 1. Go to "twake/"
