@@ -2,9 +2,10 @@
 
 * [☀️ Twake](README.md)
 
-## Getting started <a id="gettingstarted"></a>
+## Getting started <a href="#gettingstarted" id="gettingstarted"></a>
 
 * [🏗️ Installation](gettingstarted/installation/README.md)
+  * [🖥 Run Twake as Developer](gettingstarted/installation/run-twake-as-developer.md)
   * [🎡 Scale with Twake](gettingstarted/installation/scale-with-twake.md)
 * [⚙️ Configuration](gettingstarted/configuration/README.md)
   * [🔒 Security](gettingstarted/configuration/security.md)
@@ -14,8 +15,8 @@
   * [🎨 Customisation](gettingstarted/configuration/customisation.md)
   * [🔌 Connectors and plugins](gettingstarted/configuration/connectors-and-plugins.md)
   * [👨‍💻 Authentication modes](gettingstarted/configuration/authentication-modes/README.md)
-    * [Using Keycloak \(LDAP, OpenID and more\)](gettingstarted/configuration/authentication-modes/using-keycloak-ldap-openid-and-more.md)
-    * [Installing Twake with LemonLDAP \(LDAP, OpenID and more\)](gettingstarted/configuration/authentication-modes/installing-twake-with-lemonldap-ldap-openid-and-more.md)
+    * [Using Keycloak (LDAP, OpenID and more)](gettingstarted/configuration/authentication-modes/using-keycloak-ldap-openid-and-more.md)
+    * [Installing Twake with LemonLDAP (LDAP, OpenID and more)](gettingstarted/configuration/authentication-modes/installing-twake-with-lemonldap-ldap-openid-and-more.md)
 
 ## How to use it
 
@@ -63,11 +64,11 @@
 
 ## Internal Documentation
 
-* [🥇 Get started](internal-documentation/get_started.md)
+* [🥇 Get started](internal-documentation/get\_started.md)
 * [🎨 Twake Ecosystem Guidelines](internal-documentation/twake-ecosystem-guidelines.md)
 * [📚 Our stack](internal-documentation/our-stack.md)
 * [🧱 Backend and APIs](internal-documentation/backend-services/README.md)
-  * [🔑 \(WIP\) Authentication](internal-documentation/backend-services/authentication.md)
+  * [🔑 (WIP) Authentication](internal-documentation/backend-services/authentication.md)
   * [👥 Users and workspaces](internal-documentation/backend-services/users-and-workspaces-service.md)
   * [🍎 Applications](internal-documentation/backend-services/applications/README.md)
     * [Database models](internal-documentation/backend-services/applications/database-models.md)
@@ -97,4 +98,3 @@
   * [UserListManager](internal-documentation/frontend-components/userlistmanager.md)
   * [MediumPopupManager](internal-documentation/frontend-components/mediumpopupmanager.md)
   * [MenuManager](internal-documentation/frontend-components/menumanager.md)
-

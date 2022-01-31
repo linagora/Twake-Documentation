@@ -1,0 +1,49 @@
+---
+description: Ready to contribute ? Here you go :)
+---
+
+# 🖥 Run Twake as Developer
+
+## Run the backend (+ database)
+
+1. Go to "twake/"
+2. `docker-compose -f docker-compose.dev.mongo.yml up -d`
+3. The backend will be running on port 3000
+
+## Run the frontend
+
+1. Fork our repo [https://github.com/TwakeApp/Twake](https://github.com/TwakeApp/Twake) and checkout the **develop** branch
+2. Go to "twake/frontend"
+3. Run `yarn install` (better to use **yarn** than **npm**), our developers uses node 14 and 16, it should work with any upper version.
+4. Prepare the **environment.ts** file like this: `cp environment/environment.ts.dist.dev environment/environment.ts`
+
+```
+export default {
+  env_dev: true,
+  front_root_url: 'http://localhost:3001',
+  api_root_url: 'http://localhost:3000',
+  websocket_url: 'ws://localhost:3000'
+};
+```
+
+5\. Run `yarn start`
+
+6\. It will propose to run on another port, say "yes" to run it on port 3001.
+
+## Test and start develop
+
+You should be able to go on [http://localhost:3001](http://localhost:3001) just click on "create an account" and you'll be able to access Twake after a few steps.
+
+\-> Logs from backend can be accessed from `docker-compose -f docker-compose.dev.mongo.yml logs -f --tail 100`
+
+\-> Logs from frontend are visible in the output of `yarn start`
+
+
+
+You can start writing code 🎉 ! It will reload the backend / frontend automatically each time you save.
+
+
+
+{% hint style="info" %}
+If you have any issue, please come and join us on [https://community.twake.app/](https://community.twake.app)
+{% endhint %}
