@@ -45,8 +45,12 @@ You should be able to go on [http://localhost:3001](http://localhost:3001) just 
 
 You can start writing code 🎉 ! It will reload the backend / frontend automatically each time you save.
 
-
-
 {% hint style="info" %}
 If you have any issue, please come and join us on [https://community.twake.app/](https://community.twake.app)
 {% endhint %}
+
+## Propose an improvement to be merged
+
+For this you need to create a merge request on Github from your fork to our develop branch. Goes there: [https://github.com/linagora/Twake/compare](https://github.com/linagora/Twake/compare) and click "compare across forks".
+
+Tests will be ran automatically and should pass before to merge the code.
