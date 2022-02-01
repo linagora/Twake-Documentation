@@ -16,19 +16,20 @@ import ObjectModalTitle from 'components/ObjectModal/ObjectModal.js';
   </ObjectModalTitle>
 ```
 
-####
+#### 
 
 #### Props
 
-| **name**      | **Description**                      | **Type** | **Default** |
-| ------------- | ------------------------------------ | -------- | ----------- |
-| **className** | Use predefined classes for the title | string   | null        |
-| **style**     | Define a custom style for the title  | object   | null        |
+| **name** | **Description** | **Type** | **Default** |
+| :--- | :--- | :--- | :--- |
+| **className** | Use predefined classes for the title | string | null |
+| **style** | Define a custom style for the title | object | null |
 
-####
+#### 
 
 #### Preview
 
 ![](../../../.gitbook/assets/capture-decran-de-2020-07-17-17-48-56.png)
 
-****
+\*\*\*\*
+

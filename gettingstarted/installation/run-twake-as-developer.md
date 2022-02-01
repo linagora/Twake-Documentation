@@ -1,12 +1,8 @@
 ---
-description: >-
-  Welcome to the internal documentation section. This chapter is for developers
-  working in Twake team or wanting to participate in the project.
+description: Ready to contribute ? Here you go :)
 ---
 
-# 🥇 Get started
-
-> If you are looking for the Developers API of Twake to make plugins, apps or connectors, go here : [Developers API](../../developers-api/home.md)
+# 🖥 Run Twake as Developer
 
 ## Before to start
 

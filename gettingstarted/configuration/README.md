@@ -2,7 +2,7 @@
 description: More details about Twake configuration.
 ---
 
-# ⚙ Configuration
+# ⚙️ Configuration
 
 ### Detach the configuration and start using your own
 

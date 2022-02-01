@@ -4,8 +4,8 @@ description: Application models for backend
 
 # Database models
 
-**applications**\
-****Represent an application in the database
+**applications**  
+Represent an application in the database
 
 ```javascript
 {
@@ -115,8 +115,8 @@ type ApplicationDisplay = {
 
 
 
-**company\_application**\
-****Represent an application in a company
+**company\_application**  
+Represent an application in a company
 
 ```javascript
 {
@@ -128,3 +128,4 @@ type ApplicationDisplay = {
 	"created_by": string; //Will be the default delegated user when doing actions on Twake
 }
 ```
+

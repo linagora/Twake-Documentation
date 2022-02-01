@@ -4,11 +4,19 @@ description: Ready to use Twake with your team?
 
 # ▶ Use Twake on twake.app
 
+#### Start using Twake now
+
 To use Twake online it is simple, just go on [twake.app](https://twake.app) and click "Sign up".
 
 {% hint style="info" %}
 Want to install it on your own server ? [It is here](installation/).
 {% endhint %}
+
+#### Now, you can learn how to become a Twake super-user
+
+{% content-ref url="../how-to-use-it/welcome.md" %}
+[welcome.md](../how-to-use-it/welcome.md)
+{% endcontent-ref %}
 
 ## Use the canary version to try out new features
 
