@@ -6,7 +6,7 @@ description: >-
 
 # 🥇 Get started
 
-> If you are looking for the Developers API of Twake to make plugins, apps or connectors, go here : [Developers API](../developers-api/home.md)
+> If you are looking for the Developers API of Twake to make plugins, apps or connectors, go here : [Developers API](../../developers-api/home.md)
 
 ## Before to start
 

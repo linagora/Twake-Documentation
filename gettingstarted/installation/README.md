@@ -2,7 +2,7 @@
 description: How to install Twake
 ---
 
-# 🏗️ Installation
+# 🏗 Install on your server
 
 ## Use Twake in SaaS
 

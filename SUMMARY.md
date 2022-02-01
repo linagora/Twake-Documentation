@@ -4,9 +4,10 @@
 
 ## Getting started <a href="#gettingstarted" id="gettingstarted"></a>
 
-* [🏗️ Installation](gettingstarted/installation/README.md)
+* [▶ Use Twake on twake.app](gettingstarted/use-twake-on-twake.app.md)
+* [🏗 Install on your server](gettingstarted/installation/README.md)
   * [🎡 Scale with Twake](gettingstarted/installation/scale-with-twake.md)
-* [⚙️ Configuration](gettingstarted/configuration/README.md)
+* [⚙ Configuration](gettingstarted/configuration/README.md)
   * [🔒 Security](gettingstarted/configuration/security.md)
   * [🔗 Custom domain + HTTPS](gettingstarted/configuration/custom-domain-and-https/README.md)
     * [Apache2 configuration](gettingstarted/configuration/custom-domain-and-https/apache2-configuration.md)
@@ -63,7 +64,7 @@
 
 ## Internal Documentation
 
-* [🥇 Get started](internal-documentation/get-started.md)
+* [🥇 Get started](gettingstarted/installation/run-twake-as-developer.md)
 * [🎨 Twake Ecosystem Guidelines](internal-documentation/twake-ecosystem-guidelines.md)
 * [📚 Our stack](internal-documentation/our-stack.md)
 * [🧱 Backend and APIs](internal-documentation/backend-services/README.md)
