@@ -18,6 +18,10 @@ Want to install it on your own server ? [It is here](installation/).
 [welcome.md](../how-to-use-it/welcome.md)
 {% endcontent-ref %}
 
+{% hint style="info" %}
+If you want to see the latest updates you can go here: [https://github.com/linagora/Twake/blob/main/changelog.md](https://github.com/linagora/Twake/blob/canary/changelog.md)
+{% endhint %}
+
 ## Use the canary version to try out new features
 
 You want to try the latest features from Twake before they come out to production? You can!
@@ -39,3 +43,7 @@ Press Shift+Alt+Command or Shift+Ctrl+Alt to open the "Change server url" popup 
 #### How to use it on the mobile app
 
 Logout from the mobile app, click on Change server and put [https://canary.twake.app](https://canary.twake.app) then login.
+
+{% hint style="info" %}
+If you want to see the latest updates on the **canary** server you can go here: [https://github.com/linagora/Twake/blob/canary/changelog.md](https://github.com/linagora/Twake/blob/canary/changelog.md)
+{% endhint %}
