@@ -8,24 +8,16 @@ description: Rest api for files
 
 ## General
 
-{% api-method method="get" host="/internal/services/files/v1" path="/:company\_id/files/:file\_id" %}
-{% api-method-summary %}
-Get file metadata \(check user belongs to comapny\)
-{% endapi-method-summary %}
+{% swagger baseUrl="/internal/services/files/v1" path="/:company_id/files/:file_id" method="get" summary="Get file metadata (check user belongs to comapny)" %}
+{% swagger-description %}
+This route is called to get the metadata related to the 
 
-{% api-method-description %}
-This route is called to get the metadata related to the `file_id` mentioned in the URL
-{% endapi-method-description %}
+`file_id`
 
-{% api-method-spec %}
-{% api-method-request %}
+ mentioned in the URL
+{% endswagger-description %}
 
-{% api-method-response %}
-{% api-method-response-example httpCode=200 %}
-{% api-method-response-example-description %}
-
-{% endapi-method-response-example-description %}
-
+{% swagger-response status="200" description="" %}
 ```
 Response:
   {
@@ -58,126 +50,79 @@ Response:
     }
   }
 ```
-{% endapi-method-response-example %}
-{% endapi-method-response %}
-{% endapi-method-spec %}
-{% endapi-method %}
+{% endswagger-response %}
+{% endswagger %}
 
-{% api-method method="get" host="/internal/services/files/v1" path="/companies/:company\_id/files/:file\_id/download" %}
-{% api-method-summary %}
-Download a file 
-{% endapi-method-summary %}
+{% swagger baseUrl="/internal/services/files/v1" path="/companies/:company_id/files/:file_id/download" method="get" summary="Download a file " %}
+{% swagger-description %}
+This route is called to download the file related to the 
 
-{% api-method-description %}
-This route is called to download the file related to the `file_id` mentionned in the URL
-{% endapi-method-description %}
+`file_id`
 
-{% api-method-spec %}
-{% api-method-request %}
+ mentionned in the URL
+{% endswagger-description %}
 
-{% api-method-response %}
-{% api-method-response-example httpCode=200 %}
-{% api-method-response-example-description %}
-
-{% endapi-method-response-example-description %}
-
+{% swagger-response status="200" description="" %}
 ```
-
 ```
-{% endapi-method-response-example %}
-{% endapi-method-response %}
-{% endapi-method-spec %}
-{% endapi-method %}
+{% endswagger-response %}
+{% endswagger %}
 
-{% api-method method="get" host="/internal/services/files/v1" path="/companies/:company\_id/files/:file\_id/thumbnails/:id" %}
-{% api-method-summary %}
-Download thumbnails
-{% endapi-method-summary %}
+{% swagger baseUrl="/internal/services/files/v1" path="/companies/:company_id/files/:file_id/thumbnails/:id" method="get" summary="Download thumbnails" %}
+{% swagger-description %}
+This route is called to download the thumbnail related to the 
 
-{% api-method-description %}
-This route is called to download the thumbnail related to the `file_id` mentionned in the URL
-{% endapi-method-description %}
+`file_id`
 
-{% api-method-spec %}
-{% api-method-request %}
+ mentionned in the URL
+{% endswagger-description %}
 
-{% api-method-response %}
-{% api-method-response-example httpCode=200 %}
-{% api-method-response-example-description %}
-
-{% endapi-method-response-example-description %}
-
+{% swagger-response status="200" description="" %}
 ```
-
 ```
-{% endapi-method-response-example %}
-{% endapi-method-response %}
-{% endapi-method-spec %}
-{% endapi-method %}
+{% endswagger-response %}
+{% endswagger %}
 
-\*\*\*\*
+****
 
-{% api-method method="delete" host="/internal/services/files/v1" path="/companies/:company\_id/files/:file\_id" %}
-{% api-method-summary %}
-Delete a file
-{% endapi-method-summary %}
+{% swagger baseUrl="/internal/services/files/v1" path="/companies/:company_id/files/:file_id" method="delete" summary="Delete a file" %}
+{% swagger-description %}
+This route is called to delete the file related to the 
 
-{% api-method-description %}
-This route is called to delete the file related to the `file_id` mentionned in the URL
-{% endapi-method-description %}
+`file_id`
 
-{% api-method-spec %}
-{% api-method-request %}
+ mentionned in the URL
+{% endswagger-description %}
 
-{% api-method-response %}
-{% api-method-response-example httpCode=200 %}
-{% api-method-response-example-description %}
-
-{% endapi-method-response-example-description %}
-
+{% swagger-response status="200" description="" %}
 ```
-
 ```
-{% endapi-method-response-example %}
-{% endapi-method-response %}
-{% endapi-method-spec %}
-{% endapi-method %}
+{% endswagger-response %}
+{% endswagger %}
 
 ## Classic upload
 
 To upload a single file, you must call this route and put the file binary data into a "file" multipart section.
 
-{% api-method method="post" host="/internal/services/files/v1" path="/companies/:company\_id/files?thumbnail\_sync=1" %}
-{% api-method-summary %}
-Upload a file 
-{% endapi-method-summary %}
+{% swagger baseUrl="/internal/services/files/v1" path="/companies/:company_id/files?thumbnail_sync=1" method="post" summary="Upload a file " %}
+{% swagger-description %}
+This route is called to upload a file when chunk upload is not necessary.
 
-{% api-method-description %}
-This route is called to upload a file when chunk upload is not necessary.  
-Thumbnail\_sync: when set then backend will wait up to 10 seconds for preview to be generated before reply.
-{% endapi-method-description %}
+\
 
-{% api-method-spec %}
-{% api-method-request %}
-{% api-method-query-parameters %}
-{% api-method-parameter name="thumbnail\_sync" type="boolean" required=false %}
 
-{% endapi-method-parameter %}
-{% endapi-method-query-parameters %}
+Thumbnail_sync: when set then backend will wait up to 10 seconds for preview to be generated before reply.
+{% endswagger-description %}
 
-{% api-method-form-data-parameters %}
-{% api-method-parameter name="File " type="object" required=false %}
+{% swagger-parameter in="query" name="thumbnail_sync" type="boolean" %}
+
+{% endswagger-parameter %}
+
+{% swagger-parameter in="body" name="File " type="object" %}
 The file which will be uploaded
-{% endapi-method-parameter %}
-{% endapi-method-form-data-parameters %}
-{% endapi-method-request %}
+{% endswagger-parameter %}
 
-{% api-method-response %}
-{% api-method-response-example httpCode=200 %}
-{% api-method-response-example-description %}
-
-{% endapi-method-response-example-description %}
-
+{% swagger-response status="200" description="" %}
 ```
 response : 
   {
@@ -200,10 +145,8 @@ response :
 }
   
 ```
-{% endapi-method-response-example %}
-{% endapi-method-response %}
-{% endapi-method-spec %}
-{% endapi-method %}
+{% endswagger-response %}
+{% endswagger %}
 
 ## Upload with chunk
 
@@ -214,61 +157,38 @@ The file initialization and following upload calls takes this parameters as **a 
 * **filename**: string, file name
 * **type**: string, mime type for the file
 * **total\_chunks**: number, total number of chunk to be uploaded
-* **total\_Size**: number, sum of every chunk size \(total file size\)
+* **total\_Size**: number, sum of every chunk size (total file size)
 * **chunk\_number**: number, current chunk uploaded, set it to undefined during file creation process.
 * **thumbnail\_sync:** when set then backend will wait up to 10 seconds for the preview to be generated before to reply.
 
-{% api-method method="post" host="/internal/services/files/v1" path="/companies/:company\_id/files/?filename..." %}
-{% api-method-summary %}
-Upload a file with chunk
-{% endapi-method-summary %}
-
-{% api-method-description %}
+{% swagger baseUrl="/internal/services/files/v1" path="/companies/:company_id/files/?filename..." method="post" summary="Upload a file with chunk" %}
+{% swagger-description %}
 This route should first be called without data to initialise the entity for multi-chunk, then chunks must be sent on other route below
-{% endapi-method-description %}
+{% endswagger-description %}
 
-{% api-method-spec %}
-{% api-method-request %}
-
-{% api-method-response %}
-{% api-method-response-example httpCode=200 %}
-{% api-method-response-example-description %}
-
-{% endapi-method-response-example-description %}
-
+{% swagger-response status="200" description="" %}
 ```
-
 ```
-{% endapi-method-response-example %}
-{% endapi-method-response %}
-{% endapi-method-spec %}
-{% endapi-method %}
+{% endswagger-response %}
+{% endswagger %}
 
-{% api-method method="post" host="/internal/services/files/v1" path="/companies/:company\_id/files/:file\_id/?totalChunks..." %}
-{% api-method-summary %}
+{% swagger baseUrl="/internal/services/files/v1" path="/companies/:company_id/files/:file_id/?totalChunks..." method="post" summary="Overwrite a file " %}
+{% swagger-description %}
 Overwrite a file 
-{% endapi-method-summary %}
 
-{% api-method-description %}
-Overwrite a file   
-\(check user belongs to company\)  
-User can call this if the file was not already uploaded. If file already exist only apps can do this \(users cannot directly overwrite a file\).
-{% endapi-method-description %}
+\
 
-{% api-method-spec %}
-{% api-method-request %}
 
-{% api-method-response %}
-{% api-method-response-example httpCode=200 %}
-{% api-method-response-example-description %}
+(check user belongs to company)
 
-{% endapi-method-response-example-description %}
+\
 
+
+User can call this if the file was not already uploaded. If file already exist only apps can do this (users cannot directly overwrite a file).
+{% endswagger-description %}
+
+{% swagger-response status="200" description="" %}
 ```
-
 ```
-{% endapi-method-response-example %}
-{% endapi-method-response %}
-{% endapi-method-spec %}
-{% endapi-method %}
-
+{% endswagger-response %}
+{% endswagger %}

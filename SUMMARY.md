@@ -5,7 +5,6 @@
 ## Getting started <a href="#gettingstarted" id="gettingstarted"></a>
 
 * [🏗️ Installation](gettingstarted/installation/README.md)
-  * [🖥 Run Twake as Developer](gettingstarted/installation/run-twake-as-developer.md)
   * [🎡 Scale with Twake](gettingstarted/installation/scale-with-twake.md)
 * [⚙️ Configuration](gettingstarted/configuration/README.md)
   * [🔒 Security](gettingstarted/configuration/security.md)
@@ -64,7 +63,7 @@
 
 ## Internal Documentation
 
-* [🥇 Get started](internal-documentation/get\_started.md)
+* [🥇 Get started](internal-documentation/get-started.md)
 * [🎨 Twake Ecosystem Guidelines](internal-documentation/twake-ecosystem-guidelines.md)
 * [📚 Our stack](internal-documentation/our-stack.md)
 * [🧱 Backend and APIs](internal-documentation/backend-services/README.md)

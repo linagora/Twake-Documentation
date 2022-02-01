@@ -4,46 +4,30 @@ description: This method allow to send message to a specific channel.
 
 # POST Request
 
-#### Before starting, make sure you added **`message_save`** into **`write privileges`**.  See the ****[Application access and privileges](../../get-started/#application-access-and-privileges) ****section.
+#### Before starting, make sure you added ** `message_save` ** into **`write privileges`**. See the **** [Application access and privileges](../../get-started/#application-access-and-privileges) **** section.
 
-{% api-method method="post" host="https://api.twake.app" path="/api/v1/messages/save" %}
-{% api-method-summary %}
-POST message
-{% endapi-method-summary %}
+{% swagger baseUrl="https://api.twake.app" path="/api/v1/messages/save" method="post" summary="POST message" %}
+{% swagger-description %}
 
-{% api-method-description %}
+{% endswagger-description %}
 
-{% endapi-method-description %}
-
-{% api-method-spec %}
-{% api-method-request %}
-{% api-method-headers %}
-{% api-method-parameter name="Authorization" type="string" required=true %}
+{% swagger-parameter in="header" name="Authorization" type="string" %}
 `Basic base64(public_id:private_api_key)`
-{% endapi-method-parameter %}
+{% endswagger-parameter %}
 
-{% api-method-parameter name="Content-Type" type="string" required=true %}
+{% swagger-parameter in="header" name="Content-Type" type="string" %}
 `application/json`
-{% endapi-method-parameter %}
-{% endapi-method-headers %}
+{% endswagger-parameter %}
 
-{% api-method-body-parameters %}
-{% api-method-parameter name="message" type="object" required=true %}
+{% swagger-parameter in="body" name="message" type="object" %}
 `Require channel_id and content, see the Body section`
-{% endapi-method-parameter %}
+{% endswagger-parameter %}
 
-{% api-method-parameter name="group\_id" type="string" required=true %}
+{% swagger-parameter in="body" name="group_id" type="string" %}
 `See the group_id and channel_id section`
-{% endapi-method-parameter %}
-{% endapi-method-body-parameters %}
-{% endapi-method-request %}
+{% endswagger-parameter %}
 
-{% api-method-response %}
-{% api-method-response-example httpCode=200 %}
-{% api-method-response-example-description %}
-If request is successful, the response should be something like this.
-{% endapi-method-response-example-description %}
-
+{% swagger-response status="200" description="If request is successful, the response should be something like this." %}
 ```
 {
     "object": {
@@ -62,14 +46,12 @@ If request is successful, the response should be something like this.
     }
 }
 ```
-{% endapi-method-response-example %}
-{% endapi-method-response %}
-{% endapi-method-spec %}
-{% endapi-method %}
+{% endswagger-response %}
+{% endswagger %}
 
-### Body example: 
+### Body example:&#x20;
 
-```text
+```
 {
 	"group_id": "--",
 	"message": {
@@ -79,4 +61,3 @@ If request is successful, the response should be something like this.
 	}
 }
 ```
-
