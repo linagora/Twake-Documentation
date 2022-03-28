@@ -2,7 +2,7 @@
 description: How to install Twake
 ---
 
-# 🏗️ Installation
+# 🏗 Install on your server
 
 ## Use Twake in SaaS
 
@@ -19,6 +19,8 @@ git clone https://github.com/TwakeApp/Twake.git
 cd Twake/twake
 docker-compose -f docker-compose.onpremise.mongo.yml up -d
 ```
+
+Twake will be running on port 3000
 
 ### What's next ?
 
