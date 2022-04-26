@@ -2,5 +2,5 @@
 description: Set your application
 ---
 
-# ⚙️ Application settings
+# ⚙ Application settings
 

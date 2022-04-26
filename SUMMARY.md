@@ -48,7 +48,7 @@
   * [Authenticate with Postman](developers-api/get-started/authenticate-postman.md)
   * [Send a message with your application](developers-api/get-started/send-a-message-for-twake.md)
   * [Trigger action from command](developers-api/get-started/trigger-action-from-command.md)
-* [⚙️ Application settings](developers-api/application-settings/README.md)
+* [⚙ Application settings](developers-api/application-settings/README.md)
   * [Api](developers-api/application-settings/api.md)
   * [Display](developers-api/application-settings/application-visibility-example.md)
   * [Privileges](developers-api/application-settings/privileges.md)
