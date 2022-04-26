@@ -60,7 +60,7 @@
     * [DELETE Request](developers-api/api-reference/message/delete-request.md)
     * [POST Request](developers-api/api-reference/message/post-request.md)
   * [Authentication](developers-api/api-reference/auth.md)
-* [🎭 Translation](developers-api/translation.md)
+* [🧱 Blocks](developers-api/blocks.md)
 
 ## Internal Documentation
 
@@ -98,3 +98,4 @@
   * [UserListManager](internal-documentation/frontend-components/userlistmanager.md)
   * [MediumPopupManager](internal-documentation/frontend-components/mediumpopupmanager.md)
   * [MenuManager](internal-documentation/frontend-components/menumanager.md)
+* [🎭 Translation](internal-documentation/translation.md)
